@@ -1,4 +1,4 @@
-# Task02
+# Distance between maximum value
 
 The purpose of this exercise is to train you to work with arrays.
 
@@ -21,51 +21,16 @@ Input:
 
 ```
 {4, 100, 3, 4}
-```
-
-Output:
-
-```
-result = 0
-```
-
----
-
-Input:
- 
-```
 {5, 50, 50, 4, 5}
-```
-
-Output:
-
-```
-result = 1
-```
----
-
-Input:
- 
-```
 {5, 350, 350, 4, 350}
-```
-
-Output:
-
-```
-result = 3
-```
-
----
-
-Input:
- 
-```
 {10, 10, 10, 10, 10}
 ```
 
 Output:
 
 ```
+result = 0
+result = 1
+result = 3
 result = 4 
 ```
