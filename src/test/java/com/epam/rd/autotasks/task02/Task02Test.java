@@ -84,7 +84,6 @@ class ReplaceCamelCase extends DisplayNameGenerator.Standard {
 	@Override
 	public String generateDisplayNameForMethod(Class<?> testClass, Method testMethod) {
 		return this.replaceCamelCase(testMethod.getName());
-//				+ DisplayNameGenerator.parameterTypesAsString(testMethod);
 	}
 
 	String replaceCamelCase(String camelCase) {
