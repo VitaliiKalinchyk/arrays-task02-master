@@ -6,7 +6,7 @@ Estimated workload of this exercise is *20 min*.
 
 ### Description
 
-Please, proceed to [Task02](src/main/java/com/epam/rd/autotasks/task02/Task02.java) class
+Please, proceed to [IntArrayUtil](src/main/java/com/epam/rd/autotasks/array/IntArrayUtil.java) class
 and implement its static method:
 
 `int maximumDistance(int[] array)`

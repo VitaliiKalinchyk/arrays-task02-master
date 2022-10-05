@@ -1,6 +1,6 @@
-package com.epam.rd.autotasks.task02;
+package com.epam.rd.autotasks.array;
 
-public class Task02 {
+public class IntArrayUtil {
 
 	public static int maximumDistance(int[] array) {
 		// TODO: Implement this method.

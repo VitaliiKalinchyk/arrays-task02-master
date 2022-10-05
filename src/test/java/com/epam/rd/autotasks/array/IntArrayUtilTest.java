@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.task02;
+package com.epam.rd.autotasks.array;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -9,62 +9,62 @@ import org.junit.jupiter.api.DisplayNameGenerator;
 import org.junit.jupiter.api.Test;
 
 @DisplayNameGeneration(ReplaceCamelCase.class)
-class Task02Test {
+class IntArrayUtilTest {
 
 	@Test
 	void theDistanceBetweenTheFirstAndTheLastEntryOfTheMaximumValueIsCalculated() {
 		{
 			int[] array = null;
 			int expected = 0;
-			int actual = Task02.maximumDistance(array);
+			int actual = IntArrayUtil.maximumDistance(array);
 			assertEquals(expected, actual);
 		}
 		{
 			int[] array = new int[] {};
 			int expected = 0;
-			int actual = Task02.maximumDistance(array);
+			int actual = IntArrayUtil.maximumDistance(array);
 			assertEquals(expected, actual);
 		}
 		{
 			int[] array = new int[] { 4, 100, 3, 4 };
 			int expected = 0;
-			int actual = Task02.maximumDistance(array);
+			int actual = IntArrayUtil.maximumDistance(array);
 			assertEquals(expected, actual);
 		}
 		{
 			int[] array = new int[] { 5, 50, 50, 4, 5 };
 			int expected = 1;
-			int actual = Task02.maximumDistance(array);
+			int actual = IntArrayUtil.maximumDistance(array);
 			assertEquals(expected, actual);
 		}
 		{
 			int[] array = new int[] { 5, 350, 350, 4, 350 };
 			int expected = 3;
-			int actual = Task02.maximumDistance(array);
+			int actual = IntArrayUtil.maximumDistance(array);
 			assertEquals(expected, actual);
 		}
 		{
 			int[] array = new int[] { 10, 10, 10, 10, 10 };
 			int expected = 4;
-			int actual = Task02.maximumDistance(array);
+			int actual = IntArrayUtil.maximumDistance(array);
 			assertEquals(expected, actual);
 		}
 		{
 			int[] array = new int[] { 0, -1, -1, 0 };
 			int expected = 3;
-			int actual = Task02.maximumDistance(array);
+			int actual = IntArrayUtil.maximumDistance(array);
 			assertEquals(expected, actual);
 		}
 		{
 			int[] array = new int[] { 0, 0 };
 			int expected = 1;
-			int actual = Task02.maximumDistance(array);
+			int actual = IntArrayUtil.maximumDistance(array);
 			assertEquals(expected, actual);
 		}
 		{
 			int[] array = new int[] { 0 };
 			int expected = 0;
-			int actual = Task02.maximumDistance(array);
+			int actual = IntArrayUtil.maximumDistance(array);
 			assertEquals(expected, actual);
 		}
 	}
