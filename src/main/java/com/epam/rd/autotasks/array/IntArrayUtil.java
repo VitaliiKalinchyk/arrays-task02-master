@@ -1,9 +1,18 @@
 package com.epam.rd.autotasks.array;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class IntArrayUtil {
 
 	public static int maximumDistance(int[] array) {
-		// TODO: Implement this method.
+		if (array != null && array.length > 0) {
+			List<Integer> collect = Arrays.stream(array).boxed().collect(Collectors.toList());
+			Integer max = Collections.max(collect);
+			return collect.lastIndexOf(max) - collect.indexOf(max);
+		}
 		return 0;
 	}
 
